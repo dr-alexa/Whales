@@ -1,0 +1,6 @@
+aiogram>=3.13,<4   # Stars: send_invoice(XTR), refund_star_payment
+SQLAlchemy[asyncio]>=2.0
+aiosqlite>=0.19
+APScheduler>=3.10,<4
+python-dotenv>=1.0
+# для PostgreSQL: asyncpg, DATABASE_URL=postgresql+asyncpg://user:pass@host/db
